@@ -54,6 +54,10 @@ Android's native library directory is used as an executable location. The build 
 - image default 512×512, 20 steps, Euler A
 - SD Vulkan build attempted first, CPU fallback available
 
+## CI
+
+Pushes to `main` build a debug APK and publish it as the `LocalAI-debug-apk` GitHub Actions artifact.
+
 ## Licenses
 
 This repository does not redistribute model weights. Before distributing a build to others, review the licenses/model cards of the models exposed by the downloader and the licenses of llama.cpp and stable-diffusion.cpp.
